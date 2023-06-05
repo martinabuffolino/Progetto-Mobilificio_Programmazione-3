@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mobilificio.Notifica_Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0">
+         <image>
+            <Image url="@../../../resources/background.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="indietro" layoutX="88.0" layoutY="537.0" mnemonicParsing="false" onAction="#handleIndietro" text="Indietro">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableView" layoutX="110.0" layoutY="80.0" prefHeight="436.0" prefWidth="398.0">
+         <columns>
+            <TableColumn fx:id="col_codArr" prefWidth="62.0" text="Codice" />
+            <TableColumn fx:id="col_nome" prefWidth="75.0" text="Nome" />
+            <TableColumn fx:id="col_descrizione" prefWidth="259.0" text="Descrizione" />
+         </columns>
+      </TableView>
+      <Button fx:id="invia" layoutX="741.0" layoutY="537.0" mnemonicParsing="false" onAction="#handleInvia" text="Invia">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="551.0" layoutY="205.0" prefHeight="80.0" prefWidth="298.0" text="Inserisci codice arredamento">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="codiceA" layoutX="628.0" layoutY="270.0" prefHeight="31.0" prefWidth="144.0" />
+   </children>
+</AnchorPane>

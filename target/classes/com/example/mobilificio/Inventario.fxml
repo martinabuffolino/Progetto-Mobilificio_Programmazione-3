@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mobilificio.Inventario_Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0">
+         <image>
+            <Image url="@../../../resources/background.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="indietro" layoutX="416.0" layoutY="537.0" mnemonicParsing="false" onAction="#handleIndietro" text="Indietro">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableView" layoutX="49.0" layoutY="84.0" prefHeight="433.0" prefWidth="800.0">
+         <columns>
+            <TableColumn fx:id="col_codice" prefWidth="63.0" text="Codice" />
+            <TableColumn fx:id="col_nome" prefWidth="68.0" text="Nome" />
+            <TableColumn fx:id="col_descrizione" prefWidth="271.0" text="Descrizione" />
+            <TableColumn fx:id="col_colore" prefWidth="66.0" text="Colore" />
+            <TableColumn fx:id="col_costo" prefWidth="60.0" text="Costo" />
+            <TableColumn fx:id="col_fornitore" prefWidth="82.0" text="Fornitore" />
+            <TableColumn fx:id="col_arredamento" prefWidth="110.0" text="Arredamento" />
+            <TableColumn fx:id="col_categoria" prefWidth="79.0" text="Categoria" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
