@@ -1,4 +1,4 @@
-# Progetto_Programmazione-3
+# Progetto: Mobilificio_Programmazione-3
 
 Si vuole realizzare un sistema per la gestione di un mobilificio.
 Di ogni articolo occorre conoscere: codice, nome, descrizione, colore, costo,
