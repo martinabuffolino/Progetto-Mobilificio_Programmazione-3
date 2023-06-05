@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Template</OriginalElement>
+  <nodes>
+    <node x="115.33333333333329" y="-70.0">Template.Mansione</node>
+    <node x="-115.3333333333334" y="-14.5">Template.Magazziniere</node>
+    <node x="358.66666666666663" y="19.500000000000057">Template.Venditore</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Template.Magazziniere" target="Template.Mansione" relationship="GENERALIZATION">
+      <point x="-68.0" y="-0.0" />
+      <point x="68.0" y="-0.0" />
+    </edge>
+    <edge source="Template.Venditore" target="Template.Mansione" relationship="GENERALIZATION">
+      <point x="-67.99999999999994" y="3.166666666666657" />
+      <point x="183.3333333333333" y="49.666666666666714" />
+      <point x="0.0" y="-82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="208.0" y="68.33333333333334" />
+  <SelectedNodes>
+    <node>Template.Magazziniere</node>
+    <node>Template.Mansione</node>
+    <node>Template.Venditore</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>application</OriginalElement>
+  <nodes>
+    <node x="-557.7279957556634" y="245.02802479115155">application.Articolo</node>
+    <node x="-116.10743801652893" y="278.0280247911515">application.Sostituzione</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="0.8380429964539008" showDependencies="false" x="-77.85542479338858" y="474.768" />
+  <SelectedNodes>
+    <node>application.Sostituzione</node>
+    <node>application.Articolo</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

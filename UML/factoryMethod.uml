@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factoryMethod.pattern</OriginalElement>
+  <nodes>
+    <node x="83.0" y="-15.0">factoryMethod.pattern.DatiSensibili</node>
+    <node x="302.25" y="104.0">factoryMethod.pattern.Creator</node>
+    <node x="-88.0" y="-4.0">factoryMethod.pattern.Bonifico</node>
+    <node x="302.25" y="189.5">factoryMethod.pattern.CreatorCartaCredito</node>
+    <node x="96.25" y="189.5">factoryMethod.pattern.MetodoPagamento</node>
+    <node x="-65.75" y="178.0">factoryMethod.pattern.CartaCredito</node>
+    <node x="302.25" y="7.5">factoryMethod.pattern.CreatorBonifico</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factoryMethod.pattern.CreatorBonifico" target="factoryMethod.pattern.Creator" relationship="REALIZATION">
+      <point x="0.0" y="27.0" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="factoryMethod.pattern.CartaCredito" target="factoryMethod.pattern.DatiSensibili" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.25" y="121.0" />
+      <point x="116.75" y="121.0" />
+      <point x="-33.75" y="49.5" />
+    </edge>
+    <edge source="factoryMethod.pattern.Bonifico" target="factoryMethod.pattern.DatiSensibili" relationship="GENERALIZATION">
+      <point x="60.5" y="-0.0" />
+      <point x="-67.5" y="-0.0" />
+    </edge>
+    <edge source="factoryMethod.pattern.CreatorCartaCredito" target="factoryMethod.pattern.Creator" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="factoryMethod.pattern.DatiSensibili" target="factoryMethod.pattern.MetodoPagamento" relationship="REALIZATION">
+      <point x="33.75" y="49.5" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="217.0" y="130.0" />
+  <SelectedNodes>
+    <node>factoryMethod.pattern.MetodoPagamento</node>
+    <node>factoryMethod.pattern.Creator</node>
+    <node>factoryMethod.pattern.CreatorCartaCredito</node>
+    <node>factoryMethod.pattern.DatiSensibili</node>
+    <node>factoryMethod.pattern.CreatorBonifico</node>
+    <node>factoryMethod.pattern.Bonifico</node>
+    <node>factoryMethod.pattern.CartaCredito</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

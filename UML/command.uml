@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>command.pattern</OriginalElement>
+  <nodes>
+    <node x="156.45219786775831" y="258.64111377528405">command.pattern.Sms</node>
+    <node x="397.82391578980014" y="262.4290867004086">command.pattern.Email</node>
+    <node x="184.5528433461426" y="-15.623893565344389">command.pattern.Command</node>
+    <node x="34.249609876319084" y="110.62974594578715">command.pattern.SmsCommand</node>
+    <node x="242.11028667989072" y="99.25668680463278">command.pattern.SendRecepit</node>
+    <node x="514.251766244452" y="124.1084787300321">command.pattern.EmailCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="command.pattern.SmsCommand" target="command.pattern.Command" relationship="REALIZATION">
+      <point x="3.9012368091562166E-4" y="-38.49974594578715" />
+      <point x="107.75" y="69.0" />
+      <point x="248.053" y="69.0" />
+      <point x="1.5665385740248894E-4" y="26.999893565344387" />
+    </edge>
+    <edge source="command.pattern.EmailCommand" target="command.pattern.Command" relationship="REALIZATION">
+      <point x="2.337555479243747E-4" y="-38.5004787300321" />
+      <point x="590.752" y="69.0" />
+      <point x="248.053" y="69.0" />
+      <point x="1.5665385740248894E-4" y="26.999893565344387" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.3427762039660056" showDependencies="false" x="361.0" y="160.49999999999997" />
+  <SelectedNodes>
+    <node>command.pattern.SmsCommand</node>
+    <node>command.pattern.SendRecepit</node>
+    <node>command.pattern.EmailCommand</node>
+    <node>command.pattern.Sms</node>
+    <node>command.pattern.Command</node>
+    <node>command.pattern.Email</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
